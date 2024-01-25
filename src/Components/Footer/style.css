@@ -1,0 +1,47 @@
+footer {
+    margin-top: auto;
+}
+
+.foot {
+    background-color: #333;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.foot a {
+    margin: 0 10px;
+}
+
+social-icons {
+    gap: 2px;
+    padding: 1px;
+}
+
+
+
+/* Pour les écrans de taille moyenne */
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 15px;
+        font-size: 0.9em;
+    position: sticky;    }
+}
+
+/* Pour les petits écrans */
+@media screen and (max-width: 480px) {
+    footer {
+        padding: 10px;
+        font-size: 0.8em;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;    }
+}
