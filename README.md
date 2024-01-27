@@ -1,3 +1,9 @@
+Réalisation d'un portfolio dans le cadre de l'ECF Front de la formation DWWM de Prepavenir Formation. 
+HTML, CSS & React
+Utilisation USeEffect, UseState et map.
+Esthétique en work in progress.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
